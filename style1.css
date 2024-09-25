@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header p {
+    color: #b0b0b0;
+}
+
+.plan-section {
+    margin-bottom: 30px;
+}
+
+.plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.plan-table th, .plan-table td {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.plan-table th {
+    background-color: #282828;
+    color: #ffa500;
+    font-size: 18px;
+}
+
+.plan-table td {
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+.pricing-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.pricing-option {
+    background-color: #1f1f1f;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.pricing-option h2 {
+    color: #ffa500;
+    font-size: 22px;
+}
+
+.pricing-option p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.period-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.period-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.period-btn.active {
+    background-color: #ffa500;
+}
